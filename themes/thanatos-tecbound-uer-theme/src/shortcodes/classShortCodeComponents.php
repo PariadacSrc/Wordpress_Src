@@ -9,7 +9,7 @@ class classShortCodeComponents{
 	/*__Register ShortCodes Hooks Actions*/
 	public function registerHandlers(){
 
-		add_shortcode( 'uer_slider_generic', array($this,'sliderGeneric'));
+		//add_shortcode( 'uer_slider_generic', array($this,'sliderGeneric'));
 		add_shortcode( 'uer_content_one_row_generic', array($this,'contentOneRowGeneric'));
 		add_shortcode( 'uer_content_single_desing', array($this,'contentSingleDesing'));
 		add_shortcode( 'uer_location_content', array($this,'contentLocationGeneric'));
@@ -18,7 +18,7 @@ class classShortCodeComponents{
 
 		//WP Bakery Register ShortCode Map
 		if ( function_exists( 'vc_lean_map' ) ) {
-			vc_lean_map( 'uer_slider_generic', array( $this, 'wpbMapSliderGeneric' ) );
+			//vc_lean_map( 'uer_slider_generic', array( $this, 'wpbMapSliderGeneric' ) );
 			vc_lean_map( 'uer_content_one_row_generic', array($this,'wpbMapContentOneRowGeneric') );
 			vc_lean_map( 'uer_content_single_desing', array($this,'wpbMapContentSingleDesing') );
 			vc_lean_map( 'uer_location_content', array($this,'wpbMapContentLocationGeneric') );

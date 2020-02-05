@@ -1,6 +1,5 @@
 <?php 
 
-
 class classAPIMainCalls
 {
 
@@ -16,7 +15,7 @@ class classAPIMainCalls
 	}
 	
 	function __construct(){
-		$this->registerRoutes();
+		add_action('rest_api_init',array($this,'registerRoutes'));
 	}
 
 	private function initRoutes(){

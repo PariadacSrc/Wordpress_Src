@@ -1,9 +1,4 @@
-<?php
-require_once 'vendor/autoload.php';
-
-use App\Src\Shortcodes\Classes\sliderGeneric;
-
-$ntest = new sliderGeneric();
+<?php 
 
 if(!class_exists('uerMainTheme')): 
 
@@ -68,6 +63,8 @@ if(!class_exists('uerMainTheme')):
 			classTemplatesActions::registerHandlers();
 			$celebrities = new classCelebrities(); $celebrities->registerHandlers();
 			$shortCodes  = new classShortCodeComponents(); $shortCodes->registerHandlers();
+
+			$map = new classShortcodeMaper(); $map->registerHandlers();
 		}
 
 		/**
@@ -83,6 +80,7 @@ if(!class_exists('uerMainTheme')):
 			require_once UER_THEME_DIR.'/src/actions/classMainPostTypes.php';
 			require_once UER_THEME_DIR.'/src/actions/classTemplatesActions.php';
 			require_once UER_THEME_DIR.'/src/shortcodes/classShortCodeComponents.php';
+			require_once UER_THEME_DIR.'/src/shortcodes/classShortcodeMaper.php';
 
 			//API
 			require_once UER_THEME_DIR.'/src/api/classMainCalls.php';
