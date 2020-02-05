@@ -1,0 +1,77 @@
+/*
+Theme Name: tecbound
+Theme URI: 
+Author: tecbound
+Author URI: http://tecbound.com/
+Description: Tema base para los desarrollos futuros de todos los clientes.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: wordpress, html5, css3, jquery, javascript, tecbound
+*/
+
+/*------------------------------------*\
+    $CONTENIDO
+\*------------------------------------*/
+/**
+ * CONTENIDO...........Lo estás leyendo!!
+ * INCLUDE CSS...............Establece los valores iniciales
+ * FONT-FACE...........Importamos fuentes de iconos y font-face
+ * STYLES..............
+ * MEDIA-QUERIES.......
+ */
+
+/*------------------------------------*\
+    $INCLUDE CSS
+\*------------------------------------*/
+@import url(library/css/normalize.css);
+@import url(library/css/skeleton.css);
+@import url(library/css/wp_css.css);
+
+
+
+
+
+/*------------------------------------*\
+    $STYLES
+\*------------------------------------*/
+header{}
+
+footer{}
+
+.copyright{
+    background: #32a7d1;
+    font-size: 12px;
+	text-align: center;
+}
+.copyright a{
+    color: #000000;
+	text-decoration: none;
+	
+}
+
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+
+/*------------------------------------*\
+    $MEDIA-QUERIES
+\*------------------------------------*/
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}

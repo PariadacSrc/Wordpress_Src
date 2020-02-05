@@ -1,0 +1,13 @@
+/*
+Theme Name: Unidos en Red Theme (goza child extension)
+Author: Tecbound
+Author URI: http://tecbound.com/
+Description: This is a theme developed for the "Unidos en Red" foundation, this theme extends from "Goza Theme".
+Template: goza
+Test_Version: 1.00.000.test.0164
+Deploy_Version: 1.00.0003
+Version: 1.00.000.test.0164
+Tags: left-sidebar, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+*/
+
+@import url("../goza/style.css");
